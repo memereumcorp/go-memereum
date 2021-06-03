@@ -1768,15 +1768,15 @@ var ETH_UNITS = [
     'Gwei',
     'szabo',
     'finney',
-    'femtoether',
-    'picoether',
-    'nanoether',
-    'microether',
-    'milliether',
+    'femtomeme',
+    'picomeme',
+    'nanomeme',
+    'micromeme',
+    'millimeme',
     'nano',
     'micro',
     'milli',
-    'ether',
+    'meme',
     'grand',
     'Mether',
     'Gether',
@@ -1889,23 +1889,23 @@ var unitMap = {
     'kwei':         '1000',
     'Kwei':         '1000',
     'babbage':      '1000',
-    'femtoether':   '1000',
+    'femtomeme':   '1000',
     'mwei':         '1000000',
     'Mwei':         '1000000',
     'lovelace':     '1000000',
-    'picoether':    '1000000',
+    'picomeme':    '1000000',
     'gwei':         '1000000000',
     'Gwei':         '1000000000',
     'shannon':      '1000000000',
-    'nanoether':    '1000000000',
+    'nanomeme':    '1000000000',
     'nano':         '1000000000',
     'szabo':        '1000000000000',
-    'microether':   '1000000000000',
+    'micromeme':   '1000000000000',
     'micro':        '1000000000000',
     'finney':       '1000000000000000',
-    'milliether':    '1000000000000000',
-    'milli':         '1000000000000000',
-    'ether':        '1000000000000000000',
+    'millimeme':   '1000000000000000',
+    'milli':        '1000000000000000',
+    'meme':         '1000000000000000000',
     'kether':       '1000000000000000000000',
     'grand':        '1000000000000000000000',
     'mether':       '1000000000000000000000000',
@@ -2142,11 +2142,11 @@ var getValueOfUnit = function (unit) {
  *
  * Possible units are:
  *   SI Short   SI Full        Effigy       Other
- * - kwei       femtoether     babbage
- * - mwei       picoether      lovelace
- * - gwei       nanoether      shannon      nano
- * - --         microether     szabo        micro
- * - --         milliether     finney       milli
+ * - kwei       femtomeme     babbage
+ * - mwei       picomeme      lovelace
+ * - gwei       nanomeme      shannon      nano
+ * - --         micromeme     szabo        micro
+ * - --         millimeme     finney       milli
  * - ether      --             --
  * - kether                    --           grand
  * - mether
@@ -2169,12 +2169,12 @@ var fromWei = function(number, unit) {
  *
  * Possible units are:
  *   SI Short   SI Full        Effigy       Other
- * - kwei       femtoether     babbage
- * - mwei       picoether      lovelace
- * - gwei       nanoether      shannon      nano
- * - --         microether     szabo        micro
- * - --         microether     szabo        micro
- * - --         milliether     finney       milli
+ * - kwei       femtomeme     babbage
+ * - mwei       picomeme      lovelace
+ * - gwei       nanomeme      shannon      nano
+ * - --         micromeme     szabo        micro
+ * - --         micromeme     szabo        micro
+ * - --         millimeme     finney       milli
  * - ether      --             --
  * - kether                    --           grand
  * - mether
